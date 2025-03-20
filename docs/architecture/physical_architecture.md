@@ -74,4 +74,4 @@ graph TD
 3. **Monitoring**
    - Health checks for all components
    - Performance metrics collection
-   - Automated alerts for system issues 
+   - Automated alerts for system issues
