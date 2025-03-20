@@ -6,7 +6,7 @@ const config = {
     env: process.env.NODE_ENV || 'development',
   },
   database: {
-    uri: process.env.MONGODB_URI || 'mongodb://localhost:27017/data-api',
+    uri: process.env.MONGODB_URI || 'mongodb://10.12.3.44:27017/restapi',
   },
   auth: {
     emailPattern: process.env.EMAIL_PATTERN || '@afk.no',

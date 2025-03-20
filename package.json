@@ -1,7 +1,7 @@
 {
-  "name": "data-api",
+  "name": "restapi",
   "version": "1.0.0",
-  "description": "A RESTful API for storing and retrieving data based on date and user information",
+  "description": "et restful api",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
