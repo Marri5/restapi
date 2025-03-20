@@ -4,10 +4,7 @@ const logger = require('../utils/logger');
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(config.database.uri, {
-      // Mongoose 6+ doesn't need these options, they're included by default
-    });
-
+    const conn = await mongoose.connect(config.database.uri);
     logger.info(`MongoDB Connected: ${conn.connection.host}`);
     return conn;
   } catch (error) {
