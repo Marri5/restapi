@@ -9,7 +9,7 @@ const logger = winston.createLogger({
     winston.format.splat(),
     winston.format.json()
   ),
-  defaultMeta: { service: 'data-api' },
+  defaultMeta: { service: 'restapi' },
   transports: [
     new winston.transports.Console({
       format: winston.format.combine(
