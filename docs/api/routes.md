@@ -2,7 +2,7 @@
 
 ## Base URL
 ```
-https://api.example.com/v1
+http://10.12.3.44
 ```
 
 ## Authentication
