@@ -2,7 +2,7 @@
 
 ## Base URL
 ```
-http://10.12.3.44
+http://10.12.3.44:3000/v1/data
 ```
 
 ## Authentication
